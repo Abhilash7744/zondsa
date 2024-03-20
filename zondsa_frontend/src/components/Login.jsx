@@ -8,7 +8,7 @@ import { jwtDecode } from "jwt-decode";
 import { client } from '../client'
 import { stringify } from "uuid";
 
-
+// this const is for login
 const Login=() => {
   const navigate = useNavigate();
 
