@@ -1,0 +1,4 @@
+export const REACT_APP_GOOGLE_API_TOKEN = "1039088185564-q83rb98qcdats4h6f2adlps1rfb96e02.apps.googleusercontent.com"
+export const SANITY_PROJECT_ID = "fqvtpyac";
+export const SANITY_API_TOKEN = 'skE3en6769hl2e2BX34Wb5grCAXH9ThR47O3SAhKXX3Z9iX254QaVDAWey39eZrgiN8T1Qrz0yDcgXroKFiHusfmTB7yRcDBUd9PeU7PxMgFYMKRNqAXif48jyw2VDDbgRb1pUmeT8SCf2YtUQDxZzC5b8iv1kMSHR85Lz9Nl4c4u5IkNyH8'
+
