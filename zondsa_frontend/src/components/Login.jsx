@@ -17,11 +17,11 @@ const Login=() => {
     console.log(decodedResponse)
     localStorage.setItem('user', JSON.stringify(decodedResponse));
 
-    const {email,name,picture,exp} = decodedResponse;
+    const {email,name,picture,aud} = decodedResponse;
 
     // console.log(email,name,picture,exp)
     const doc =  {
-      _id: exp.toString(),
+      _id: aud.toString(),
       _type:"user",
       userName : name,
       image: picture,
