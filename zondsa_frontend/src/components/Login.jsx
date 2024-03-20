@@ -10,6 +10,7 @@ import { stringify } from "uuid";
 
 
 const Login=() => {
+  const navigate = useNavigate();
 
   const responseGoogle = (response) =>{
     const decodedResponse = jwtDecode(response.credential);
